@@ -16,7 +16,7 @@ func TestGetApiKey(t *testing.T) {
 			name:         "Valid",
 			header:       "ApiKey 123",
 			expectApiKey: "123",
-			expectError:  true,
+			expectError:  false,
 		},
 		{
 			name:         "Empty",
